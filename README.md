@@ -1,5 +1,7 @@
-![ChatterBot: Machine learning in Python](https://i.imgur.com/b3SCmGT.png)
-
+Develop a chatbot that can answer "how-to" questions related to four Customer Data
+Platforms (CDPs): Segment, mParticle, Lytics, and Zeotap. The chatbot should be able
+to extract relevant information from the official documentation of these CDPs to guide
+users on how to perform tasks or achieve specific outcomes within each platform.
 # ChatterBot
 
 ChatterBot is a machine-learning based conversational dialog engine built in
@@ -62,7 +64,6 @@ ChatterBot comes with a data utility module that can be used to train chat bots.
 At the moment there is training data for over a dozen languages in this module.
 Contributions of additional training data or training data
 in other languages would be greatly appreciated. Take a look at the data files
-in the [chatterbot-corpus](https://github.com/gunthercox/chatterbot-corpus)
 package if you are interested in contributing.
 
 ```python
@@ -88,14 +89,12 @@ trainer.train("chatterbot.corpus.english.conversations")
 For examples, see the [examples](https://docs.chatterbot.us/examples/)
 section of the documentation.
 
-# History
 
-See release notes for changes https://github.com/gunthercox/ChatterBot/releases
 
 # Development pattern for contributors
 
 1. [Create a fork](https://help.github.com/articles/fork-a-repo/) of
-   the [main ChatterBot repository](https://github.com/gunthercox/ChatterBot) on GitHub.
+ 
 2. Make your changes in a branch named something different from `master`, e.g. create
    a new branch `my-pull-request`.
 3. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/).
